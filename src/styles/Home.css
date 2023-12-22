@@ -16,7 +16,6 @@ body {
 
 .landing_text {
     text-align: center;
-    /* background-color: red; */
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -34,5 +33,5 @@ body {
 .landing_text_2 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 5rem;
-    color: white;
+    color: rgb(155, 151, 151);
 }

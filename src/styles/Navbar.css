@@ -27,3 +27,77 @@ a {
     font-weight: bolder;
     color: #fdfcdc;
 }
+
+.responsive_nav{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .normal_nav {
+        display: none;
+    }
+
+    .responsive_nav{
+        display: block;
+    }
+
+    .responsive_links {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .responsive_links a {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+        font-weight: lighter;
+    }
+
+    .responsive_links a:hover{
+        background-color: blue;
+        color: white;
+    }
+
+    .responsive_logo {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 10px;
+        position: relative;
+        z-index: 1;
+        
+    }
+
+    .menu_text {
+        color: rgb(156, 155, 155);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    svg {
+        color: red;
+    }
+
+    .ham_menu {
+        display: flex;
+        justify-items: center;
+    }
+
+    .menu_btn {
+        background-color: transparent;
+        border: none;
+        font-size: larger;
+    }
+
+    .menu_btn:hover{
+        cursor: pointer;
+    }
+
+    hr{
+        display: none;
+    }
+    
+}
