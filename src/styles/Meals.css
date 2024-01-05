@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans:ital@1&display=swap');
+
+.Meal-img {
+  width: 330px;
+  height: 330px;
+}
+
+.Meal_details a {
+  text-decoration: none;
+  font-size: medium;
+  padding: 0;
+  background-color: rgb(236, 47, 47);
+  padding: 5px;
+  color: white;
+}
+
+.Meal_details a:hover {
+  color: rgb(236, 47, 47);
+  border: 1px solid rgb(236, 47, 47);
+  background-color: transparent;
+}
+
+.Meals_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  margin-top: 100px;
+  row-gap: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .Meals_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width:1024px) {
+  .Meals_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

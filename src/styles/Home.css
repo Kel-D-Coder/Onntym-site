@@ -6,12 +6,19 @@ body {
 }
 
 .landing-img {
-    height: 100vh;
+    height: 109vh;
     width: 100%;
     position: absolute;
     top: 0;
     z-index: -100;
-    mask-image: linear-gradient(white, rgba(0, 0, 0, 0.4));
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 109vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .landing_text {
@@ -27,11 +34,195 @@ body {
 .landing_text_1 {
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
-    color: cornflowerblue;
+    color: #F9DC5C;
 }
 
 .landing_text_2 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 5rem;
-    color: rgb(155, 151, 151);
+    color: #FF3800
+}
+
+.landing_text_1, .landing_text_2 {
+    position: relative;
+    z-index: 1;
+}
+
+.variety_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.variety {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.variety_pic {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.variety_text {
+    color: whitesmoke;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.agents {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.agents img {
+    width: 500px;
+    height: 450px;
+}
+
+.agent_two_container {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.agent_two_container .text {
+    margin-top: 4rem;
+}
+
+.agents .agent_two_container .agent_two {
+    margin-top: 50px;
+}
+
+.text .about, .other_services span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 10rem;
+    color: #931F1D;
+}
+
+.text h2, .other_services h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+    margin-top: -70px;
+}
+
+.text .description, .text .opening_time {
+    font-size: larger;
+    line-height: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.other_services {
+    margin-top: 90px;
+    padding-left: 20px;
+}
+
+.other_services .services {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.other_services .services img {
+    width: 500px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+.other_services .services .service_text {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+
+    .landing-img {
+        height: 43rem;
+        width: 100%;
+    }
+
+    .landing_container {
+        margin: auto;
+    }
+
+    .landing_text_1 {
+        font-size: 2.5rem;
+    }
+
+    .landing_text_2 {
+        font-size: 1.5rem;
+    }
+
+    .overlay {
+        z-index: -5;
+        height: 43rem;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .agents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .agent_one img, .agent_two img {
+        height: 20rem;
+        width: 20rem;
+        margin: auto;
+    }
+
+    .agent_two_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .agent_two_container .text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .agent_two_container .text .about {
+        font-size: 6rem;
+    }
+
+    .variety {
+        flex-direction: column;
+        margin-top: 10rem;
+        row-gap: 50px;
+    }
+
+    .variety_pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .variety h3 {
+        color: black;
+    }
+
+    .other_services span {
+        font-size: 6rem;
+    }
+
+    .other_services h2 {
+        font-size: 2rem;
+        margin-top: -51px;
+    }
+
+    .other_services .services .service img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .services {
+        flex-direction: column;
+    }
 }
