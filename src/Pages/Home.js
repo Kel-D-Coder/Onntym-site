@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar'
 import { Footer } from '../components/Footer';
 import { Agents } from '../components/Agents'
+=======
+import React, { useEffect } from 'react';
+import { Agents } from '../components/Agents';
+>>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
 import { otherServices, varieties } from '../Data'
 import LandingImg from '../imgs/landing-pic.jpg'
 import '../styles/Home.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+<<<<<<< HEAD
+=======
+import Navbar from '../components/Navbar';
+>>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
 
 export const Home = () => {
     useEffect(() => {
@@ -14,10 +23,16 @@ export const Home = () => {
             once: true
         });
     }, [])
+<<<<<<< HEAD
     
     return (
         <>
             <Navbar />
+=======
+    return (
+        <React.Fragment>
+                <Navbar/>
+>>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
             <div className='landing_container'>
                 <img src={LandingImg} alt="" className='landing-img' />
                 <div className="overlay"></div>
@@ -56,8 +71,12 @@ export const Home = () => {
                     }
                 </div>
             </div>
+<<<<<<< HEAD
             <br />
             <Footer />
         </>
+=======
+        </React.Fragment>
+>>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
     )
 }
