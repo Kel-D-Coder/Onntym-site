@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+.back-ground{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.back-ground-2 {
+    width: 720px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.login .para-1{
+    font-size: 50px;
+}
+
+.logo{
+    width: 90px;
+    top: -130px;
+    margin-left: -30px;
+    display: inline;
+}
+
+.login{
+    position: relative;
+    margin: auto;
+    height: 50%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para-2{
+    font-size: 30px;
+}
+
+.login_buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.login_buttons a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+}
+
+.login a{
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid orange;
+    color: steelblue;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+}
+
+
+@media (max-width: 768px) {
+    .back-ground-2 {
+        display: none;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width:1024px) {
+    .back-ground-2 {
+        width: 50%;
+        align-items: center;
+    }
+
+    .back-ground-2 img{
+        width: 30rem;
+        height: 25rem;
+    }
+}

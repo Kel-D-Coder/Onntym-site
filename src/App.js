@@ -1,19 +1,24 @@
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./Pages/Home";
 import { About } from "./Pages/About";
-import { Menu } from "./Pages/Menu";
+import { Cafeteria } from "./Pages/Cafeteria";
 import { Contact } from "./Pages/Contact";
+import Breakfast from './Pages/Breakfast'
+import Welcome from "./Pages/Welcome";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="menu" element={<Menu />} />
+        <Route path="cafeteria" element={<Cafeteria />}>
+          <Route index element={<Breakfast/>}/>
+          <Route path="breakfast" element={<Breakfast/>}/>
+          {/* <Route path="lunch" element={<Lunch/>}/> */}
+        </Route>
         <Route path="contact" element={<Contact />} />
+        <Route path="Welcome" element={<Welcome/>} />
       </Routes>
     </Router>
   );
