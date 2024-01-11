@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Agents } from '../components/Agents';
-import { varieties } from '../Data'
 import { OtherServices } from '../components/OtherServices';
 import Footer from '../components/Footer'
+import { varieties } from '../Data/Data'
 import LandingImg from '../imgs/landing-pic.jpg'
 import phoneLandingPic from '../imgs/phone_landing_pic.jpg'
 import '../styles/Home.css'
