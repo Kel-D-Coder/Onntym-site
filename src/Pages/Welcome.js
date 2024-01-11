@@ -16,7 +16,7 @@ export default function Welcome() {
           <p class="para-1">Always On Tym</p>
           <p class="para-2">Join Onntym Today.</p>
           <div className="login_buttons">
-            <Link class="btn-1">Sign Up</Link>
+            <Link class="btn-1" to={'Register'}>Sign Up</Link>
             <Link class="btn-2">Login</Link>
           </div>
         </div>

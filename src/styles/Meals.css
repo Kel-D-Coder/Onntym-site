@@ -3,8 +3,27 @@
 .Meal-img {
   width: 330px;
   height: 330px;
+  border-radius: 15px;
 }
 
+.img-overLay {
+  position: relative;
+
+}
+
+.unavailable {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  top: 0;
+  border-radius: 15px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
 .Meal_details a {
   text-decoration: none;
   font-size: medium;
@@ -27,6 +46,16 @@
   margin-top: 100px;
   row-gap: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: gray;
+  margin-top: 3rem;
+  padding: 20px;
+  font-size: xx-large;
+  color: white;
+  text-transform: capitalize;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

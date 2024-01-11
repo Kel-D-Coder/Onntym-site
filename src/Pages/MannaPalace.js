@@ -1,78 +1,97 @@
 import React from 'react';
-import food from '../imgs/variety3.jpg';
 import '../styles/Meals.css';
 import { Link } from 'react-router-dom';
+import pic from '../imgs/drinks.jpg'
+// import { mannaPalace } from '../Data/Cafeteria1Data/MannaPalace';
 
 function MannaPalace() {
   return (
-    <div className="Meals_container">
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+    <React.Fragment>
+      <header>Pastries</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+      <header>Swallow</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+      <header>Protein</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+      <header>Pack</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+      <header>Drinks</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+      <header>Food</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
+      <header>Soups</header>
+      <div className="Meals_container">
+            <React.Fragment>
+              <div className="Meal_details">
+                <img src={pic} alt="" className="Meal-img" />
+                <div className="unavailable">Not available</div>
+                <h3 className="Meal_name">rice</h3>
+                <h3 className="Meal_price">$3,000</h3>
+                <Link>Add To Cart</Link>
+              </div>
+            </React.Fragment>
       </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
-      </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
-      </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
-      </div>
-      <div className="Meal_details">
-        <img src={food} alt="" className="Meal-img" />
-        <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,000</h3>
-        <Link>Add To Cart</Link>
-      </div>
-    </div>
+    </React.Fragment>
   );
 }
 
