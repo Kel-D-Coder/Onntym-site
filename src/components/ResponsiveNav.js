@@ -12,18 +12,6 @@ export default function ResponsiveNav() {
     console.log(location)
 
     useEffect(() => {
-<<<<<<< HEAD
-      setShow("no_show")
-    }, [])
-
-    useEffect(() => {
-      setOpen(false)
-    }, [location])
-
-    function openNav(){
-      setOpen(!open)
-      setShow("show")
-=======
         setShow("no_show")
     }, [])
 
@@ -34,17 +22,12 @@ export default function ResponsiveNav() {
     function openNav(){
         setOpen(!open)
         setShow("show")
->>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
     }
   return (
     <div className="responsive_nav">
       <div className="responsive_logo">
         <Link to={'/'}>
-<<<<<<< HEAD
-          <h2 className="logo-text">ONNTYM</h2>
-=======
           <h2 className="logo-text">Onntym</h2>
->>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
         </Link>
         <div className="ham_menu">
           <button className="menu_btn" onClick={openNav}>
@@ -60,7 +43,7 @@ export default function ResponsiveNav() {
         >
           <NavLink to={'/'}>Home</NavLink>
           <NavLink to={'/about'}>About</NavLink>
-          <NavLink to={'/menu'}>Menu</NavLink>
+          <NavLink to={'/cafeteria'}>Cafeteria</NavLink>
           <NavLink to={'/contact'}>Contact</NavLink>
         </div>
       ) : (
@@ -69,7 +52,7 @@ export default function ResponsiveNav() {
         >
           <NavLink to={'/'}>Home</NavLink>
           <NavLink to={'/about'}>About</NavLink>
-          <NavLink to={'/menu'}>Menu</NavLink>
+          <NavLink to={'/cafeteria'}>Cafeteria</NavLink>
           <NavLink to={'/contact'}>Contact</NavLink>
         </div>
       )}

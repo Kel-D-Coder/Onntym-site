@@ -83,7 +83,7 @@
     .responsive_logo {
         display: flex;
         justify-content: space-between;
-        background-color: rgb(69, 69, 210);
+        background-color: black;
         padding: 10px;
         position: relative;
         z-index: 1;

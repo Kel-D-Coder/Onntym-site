@@ -10,11 +10,7 @@ const Navbar = () => {
         <React.Fragment>
             <div className="navContainer normal_nav">
                 <div className="logo">
-<<<<<<< HEAD
-                    <Link to={'/'}>
-=======
                     <Link>
->>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
                         <h2 className="logo-text">ONNTYM</h2>
                     </Link>
                 </div>

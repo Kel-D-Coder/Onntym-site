@@ -5,12 +5,16 @@ body {
     margin: 0;
 }
 
-.landing-img {
+.landing-img, .phone-landing-img {
     height: 109vh;
     width: 100%;
     position: absolute;
     top: 0;
     z-index: -100;
+}
+
+.phone-landing-img {
+    display: none;
 }
 
 .overlay {
@@ -86,6 +90,13 @@ body {
     height: 450px;
 }
 
+.delivery_text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: #931F1D;
+    text-align: center;
+}
+
 .agent_two_container {
     display: flex;
     gap: 2.5rem;
@@ -143,12 +154,19 @@ body {
 @media (max-width: 768px) {
 
     .landing-img {
-        height: 43rem;
-        width: 100%;
+        display: none;
     }
 
-    .landing_container {
-        margin: auto;
+    .phone-landing-img {
+        height: 43rem;
+        width: 100%;
+        display: block;
+    }
+
+    .landing_text {
+        margin-top: -60px;
+        position: relative;
+        z-index: -1;
     }
 
     .landing_text_1 {
@@ -212,7 +230,7 @@ body {
         font-size: 6rem;
     }
 
-    .other_services h2 {
+    .other_services h2, .text h2 {
         font-size: 2rem;
         margin-top: -51px;
     }
@@ -224,5 +242,16 @@ body {
 
     .services {
         flex-direction: column;
+    }
+
+    .delivery_text {
+        font-size: 1rem;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .text .description {
+        font-size: 16px;
+        padding: 20px;
     }
 }

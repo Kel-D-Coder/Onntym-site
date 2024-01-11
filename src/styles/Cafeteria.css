@@ -1,74 +1,4 @@
 .menuLandingPic {
-<<<<<<< HEAD
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: block;
-    height: 75%;
-    z-index: -2;
-  }
-  
-  .MenuLanding_container p {
-    text-align: center;
-    margin-top: 17vw;
-    color: white;
-    font-size: 80px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bolder;
-    position: relative;
-  }
-  
-  .menuLinks_container {
-    text-align: center;
-    background-color: gray;
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    margin-top: 200px;
-    animation-duration: 1s;
-  }
-  
-  .menuLinks_container .menuLinks {
-    font-weight: bold;
-    font-size: x-large;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-  }
-  
-  .menuLinks_container .menuLinks:hover {
-    background: white;
-    color: black;
-    padding: 20px;
-    transition: background 0.3s ease-in;
-  }
-  
-  /* Mobile phone */
-  @media (max-width: 768px) {
-    .menuLinks_container {
-      display: flex;
-      flex-direction: column;
-      max-width: 50%;
-      margin-top: 28rem;
-    }
-  
-    .MenuLanding_container p {
-      font-size: 4rem;
-    }
-  }
-  
-  /* Tablet */
-  
-  @media screen and (min-width: 767px) and (max-width:1024px) {
-    .menuLinks_container {
-      display: flex;
-      flex-direction: column;
-      max-width: 50%;
-      margin-top: 28rem;
-    }
-  }
-=======
   position: absolute;
   top: 0;
   width: 100%;
@@ -137,4 +67,3 @@
     margin-top: 28rem;
   }
 }
->>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388

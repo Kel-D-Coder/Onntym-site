@@ -3,9 +3,9 @@ import service2 from './imgs/service2.jpg'
 import service3 from './imgs/service3.jpg'
 import service4 from './imgs/service4.jpg'
 
-import drinks from "./imgs/drinks.jpg"
 import provision from "./imgs/provs2.jpg"
-import cloths from "./imgs/clothing.jpg"
+import food from "./imgs/food-delivery.jpg"
+import packageDelivery from './imgs/package.jpg'
 
 export const varieties = [
 
@@ -39,24 +39,20 @@ export const otherServices = [
 
     {
         id: 1,
-        name: "Drinks",
-        image: drinks
+        name: "Package Delivery",
+        image: packageDelivery
     },
 
     {
         id: 2,
-        name: "Provision",
+        name: "Groceries Delivery",
         image: provision
     },
 
     {
         id: 3,
-        name: "Cloths",
-        image: cloths
-<<<<<<< HEAD
-    },
-=======
+        name: "Food Delivery",
+        image: food
     }
->>>>>>> ad491171283d74d4e43e10fb30355c8e93b3b388
 
 ]

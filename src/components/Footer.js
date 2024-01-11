@@ -1,28 +1,35 @@
-import '../styles/Footer.css'
-import { Link } from 'react-router-dom'
-import { FaSnapchat, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa6'
+import React from 'react';
+import '../styles/Footer.css';
+import { Link, Outlet } from 'react-router-dom';
+import { FaWhatsapp, FaInstagram, FaTiktok } from 'react-icons/fa';
 
-export const Footer = () => {
-    return (
-        <>
-            <section class="footer">
-                <div class="social">
-                    <Link href="#"> <FaInstagram /> </Link>
-                    <Link href="#"> <FaSnapchat /> </Link>
-                    <Link href="#"> <FaTwitter /> </Link>
-                    <Link href="#"> <FaFacebook /> </Link>
-                </div>
+function Footer() {
+  return (
+    <React.Fragment>
+      <footer>
+        <div className="footer-links">
+          <Link to={'/'}>Home</Link>
+          <Link to={'about'}>About</Link>
+          <Link to={'cafeteria'}>Cafeteria</Link>
+          <Link to={'contact'}>Contact</Link>
+        </div>
 
-                <ul class="list">
-                    <li><Link href="#">Home</Link></li>
-                    <li><Link href="#">Services</Link></li>
-                    <li><Link href="#">About</Link></li>
-                    <li><Link href="#">Terms</Link></li>
-                    <li><Link href="#">Privacy Policy</Link></li>
-                </ul>
-
-                <p class="copyright">Kelvin D Coder &copy; 2022</p>
-            </section>
-        </>
-    )
+        <div className="footer-icons">
+        <Link to={'https://wa.me/+234802146287'} className='whatsapp__icon'>
+            <FaWhatsapp />
+          </Link>
+          <Link to={'https://www.tiktok.com/@onntym_?_t=8itmA3EJMU1&_r=1'} className='tiktok__icon'>
+            <FaTiktok />
+          </Link>
+          <Link to={'https://instagram.com/onntym_?igsh=NGtyeWo5Z3pxYXVp&utm_source=qr'} className='instagram__icon'>
+            <FaInstagram />
+          </Link>
+          <Outlet/>
+        </div>
+        <p> CopyRight &copy; {new Date().getFullYear()}</p>
+      </footer>
+    </React.Fragment>
+  );
 }
+
+export default Footer;
