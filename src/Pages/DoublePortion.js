@@ -9,7 +9,7 @@ function DoublePortion() {
       <div className="Meal_details">
         <img src={food} alt="" className="Meal-img" />
         <h3 className="Meal_name">White rice with stew</h3>
-        <h3 className="Meal_price">$3,00</h3>
+        <h3 className="Meal_price">$3,000</h3>
         <Link>Add To Cart</Link>
       </div>
       <div className="Meal_details">
