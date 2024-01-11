@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Agents } from '../components/Agents';
-import { otherServices, varieties } from '../Data'
+import { otherServices, varieties } from '../Data/Data'
 import LandingImg from '../imgs/landing-pic.jpg'
 import '../styles/Home.css'
 import AOS from 'aos';

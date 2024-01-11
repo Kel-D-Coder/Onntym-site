@@ -20,7 +20,7 @@
 .menuLinks_container {
   text-align: center;
   background-color: gray;
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 20px;
   margin-top: 200px;
@@ -41,6 +41,28 @@
   color: black;
   padding: 20px;
   transition: background 0.3s ease-in;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.search-container input[type='submit'] {
+  border-radius: 10px;
+  width: 6rem;
+}
+
+input[type='search'] {
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 10px;
+  background-color: rgb(249, 241, 241);
+}
+
+.searchBtn:hover {
+  cursor: pointer;
 }
 
 /* Mobile phone */

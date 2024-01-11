@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
+.registerFormLogo {
+    background-color: orange;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+.registerFormLogo img {
+    margin-top: 13rem
+}
+
+.registerFormContainer {
+    display: flex;
+}
+
+.formContainer {
+    background-color: red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer h3 {
+    color: white;
+    font-size: x-large;
+}
+
+.formContainer form {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 20rem;
+}
+
+.formContainer input {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.formContainer input[type="submit"] {
+    background-color: steelblue;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.formContainer input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.formContainer label {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .registerFormLogo {
+        display: none;
+    }
+
+    .formContainer {
+        height: 100vh;
+        width: 100vw;
+    }
+}
