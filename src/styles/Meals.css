@@ -63,6 +63,10 @@ header {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .Meal-img, .unavailable {
+    width: 55vw;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width:1024px) {
