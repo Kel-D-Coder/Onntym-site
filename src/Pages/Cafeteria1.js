@@ -4,6 +4,7 @@ import CafeteriaLandingPic from '../imgs/cafetaria-landing-pic2.jpg'
 // import CafeteriaLandingPic from '../imgs/Cafeteria-landing-pic2.jpg'
 import { NavLink, Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
+// import Footer from '../components/Footer'
 
 export const Cafeteria1 = () => {
     return (
@@ -24,7 +25,8 @@ export const Cafeteria1 = () => {
                 <NavLink className={'menuLinks'}>Shalom</NavLink>
             </div>
             <div className="search-container"><input type="search" name="search" id="" className='search' placeholder="I'm Looking For..."/> <input type="submit" value="Search" className='searchBtn' /></div>
-                <Outlet/>
+            <Outlet />
+            {/* <Footer /> */}
         </React.Fragment>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Meals.css';
 import { Pastries, Swallows, Soups, Drinks, Proteins, Foods, Packages, } from '../Data/Cafeteria1Data/DoublePortion';
+import Footer from '../components/Footer';
 
 function DoublePortion() {
   return (
@@ -125,6 +126,7 @@ function DoublePortion() {
                 )
               })}
       </div>
+      <Footer />
     </React.Fragment>
   );
 }
