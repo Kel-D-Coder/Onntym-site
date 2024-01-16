@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../imgs/logo2.png';
 import logo1 from '../imgs/logo1.png';
 import '../styles/Welcome.css';
@@ -16,8 +15,8 @@ export default function Welcome() {
           <p class="para-1">Always On Tym</p>
           <p class="para-2">Join Onntym Today.</p>
           <div className="login_buttons">
-            <Link class="btn-1" to={'Register'}>Sign Up</Link>
-            <Link class="btn-2">Login</Link>
+            <a class="btn-1" href='Register'>Sign Up</a>
+            <a class="btn-2" href='Login'>Login</a>
           </div>
         </div>
       </div>

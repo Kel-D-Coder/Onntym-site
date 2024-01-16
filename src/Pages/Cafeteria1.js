@@ -4,7 +4,6 @@ import CafeteriaLandingPic from '../imgs/cafetaria-landing-pic2.jpg'
 // import Footer from '../components/Footer'
 import { NavLink, Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
 
 export const Cafeteria1 = () => {
     return (
