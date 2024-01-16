@@ -1,7 +1,6 @@
 import React from "react"
 import '../../styles/Cafeteria.css'
 import CafeteriaLandingPic from '../../imgs/cafetaria-landing-pic2.jpg'
-// import Footer from '../components/Footer'
 import { NavLink, Outlet } from 'react-router-dom'
 import Navbar from '../../components/Navbar'
 
