@@ -42,7 +42,7 @@ export default function ResponsiveNav() {
           <NavLink to={'/'}>Home</NavLink>
           <NavLink to={'/evening vendors'}>Evening Vendors</NavLink>
           <NavLink to={'/Cafeteria1'}>Cafeteria1</NavLink>
-          <NavLink to={'/contact'}>Cafeteria2</NavLink>
+          <NavLink to={'/Cafeteria2'}>Cafeteria2</NavLink>
         </div>
       ) : (
         <div
@@ -50,8 +50,8 @@ export default function ResponsiveNav() {
         >
           <NavLink to={'/'}>Home</NavLink>
           <NavLink to={'/evening vendors'}>Evening Vendors</NavLink>
-          <NavLink to={'/cafeteria'}>Cafeteria</NavLink>
-          <NavLink to={'/contact'}>Contact</NavLink>
+          <NavLink to={'/cafeteria1'}>Cafeteria1</NavLink>
+          <NavLink to={'/Cafeteria2'}>Cafeteria2</NavLink>
         </div>
       )}
     </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
                     <NavLink to={'/'}>Home</NavLink>
                     <NavLink to={'/eveningvendors'}>Evening Vendors</NavLink>
                     <NavLink to={'/Cafeteria1'}>Cafeteria1</NavLink>
-                    <NavLink to={'/contact'}>Cafeteria2</NavLink>
+                    <NavLink to={'/Cafeteria2'}>Cafeteria2</NavLink>
                 </div>
                 <div className="user">
                     <Link to={'welcome'}> <FaUser /> </Link>

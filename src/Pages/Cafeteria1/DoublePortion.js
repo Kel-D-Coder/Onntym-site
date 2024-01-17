@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Meals.css';
-import { Pastries, Swallows, Soups, Drinks, Proteins, Foods, Packages, } from '../Data/Cafeteria1Data/DoublePortion';
-import Footer from '../components/Footer';
+import '../../styles/Meals.css';
+import { Pastries, Swallows, Soups, Drinks, Proteins, Foods, Packages, } from '../../Data/Cafeteria1Data/DoublePortion';
 
 function DoublePortion() {
   return (
@@ -19,7 +18,7 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
@@ -36,7 +35,7 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
@@ -53,7 +52,7 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
@@ -70,7 +69,7 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
@@ -87,7 +86,7 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
@@ -104,7 +103,7 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
@@ -121,12 +120,11 @@ function DoublePortion() {
                 </div>
                 <h3 className="Meal_name">{name}</h3>
                 <h3 className="Meal_price">₦ {price}</h3>
-                <Link>Add To Cart</Link>
+                <Link>Order Now</Link>
               </div>
                 )
               })}
       </div>
-      <Footer />
     </React.Fragment>
   );
 }

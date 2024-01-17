@@ -97,6 +97,7 @@
 
     .responsive_logo a {
         text-decoration: none;
+        font-size: 0.8rem;
     }
 
     .menu_text {
@@ -112,6 +113,7 @@
     .ham_menu {
         display: flex;
         justify-items: center;
+        font-size: 0.8rem;
     }
 
     .menu_btn {

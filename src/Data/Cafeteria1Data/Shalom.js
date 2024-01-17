@@ -1,88 +1,90 @@
 // Pack
-import Pack from '../../imgs/Cafeteria1/MannaPalace/Pack/Pack.jpg'
-import BigFoamPack from '../../imgs/Cafeteria1/MannaPalace/Pack/Big-foam-pack.jpg'
-import SmallFoamPack from '../../imgs/Cafeteria1/MannaPalace/Pack/SmallFoamPack.jpg'
+import Pack from "../../imgs/Cafeteria1/Shalom/Pack/Pack.jpg"
+import BigFoamPack from "../../imgs/Cafeteria1/Shalom/Pack/Big-foam-pack.jpg"
+import SmallFoamPack from "../../imgs/Cafeteria1/Shalom/Pack/SmallFoamPack.jpg"
 
 // Pastries
-import meatPie from '../../imgs/Cafeteria1/MannaPalace/Pastries/Meat-pie.jpg'
-import Donut from '../../imgs/Cafeteria1/MannaPalace/Pastries/donut.jpg'
-import eggRoll from '../../imgs/Cafeteria1/MannaPalace/Pastries/Egg-roll.jpg'
+import meatPie from "../../imgs/Cafeteria1/Shalom/Pastries/Meat-pie.jpg"
+import Donut from "../../imgs/Cafeteria1/Shalom/Pastries/donut.jpg"
+import eggRoll from "../../imgs/Cafeteria1/Shalom/Pastries/Egg-roll.jpg"
 
 // Protein
-import Beef from '../../imgs/Cafeteria1/MannaPalace/Protein/beef.jpg'
-import egg from '../../imgs/Cafeteria1/MannaPalace/Protein/egg.jpg'
-import fishBig from '../../imgs/Cafeteria1/MannaPalace/Protein/fish(big).jpg'
-import fishSmall from '../../imgs/Cafeteria1/MannaPalace/Protein/fish(small).jpg'
-import moinMoin from '../../imgs/Cafeteria1/MannaPalace/Protein/moin-moin.jpg'
-import Sausage from '../../imgs/Cafeteria1/MannaPalace/Protein/Sausage.jpg'
-import mediumChicken from '../../imgs/Cafeteria1/MannaPalace/Protein/medium-chicken.jpg'
-import Ponmo from '../../imgs/Cafeteria1/MannaPalace/Protein/ponmo.jpg'
-import smallChicken from '../../imgs/Cafeteria1/MannaPalace/Protein/small-chicken.jpg'
-import BigChicken from '../../imgs/Cafeteria1/MannaPalace/Protein/Big-chicken.jpg'
+import Beef from "../../imgs/Cafeteria1/Shalom/Protein/beef.jpg"
+import egg from "../../imgs/Cafeteria1/Shalom/Protein/egg.jpg"
+import fishBig from "../../imgs/Cafeteria1/Shalom/Protein/fish(big).jpg"
+import fishSmall from "../../imgs/Cafeteria1/Shalom/Protein/fish(small).jpg"
+import moinMoin from "../../imgs/Cafeteria1/Shalom/Protein/moin-moin.jpg"
+import Sausage from "../../imgs/Cafeteria1/Shalom/Protein/Sausage.jpg"
+import mediumChicken from "../../imgs/Cafeteria1/Shalom/Protein/medium-chicken.jpg"
+import Ponmo from "../../imgs/Cafeteria1/Shalom/Protein/ponmo.jpg"
+import smallChicken from "../../imgs/Cafeteria1/Shalom/Protein/small-chicken.jpg"
+import BigChicken from "../../imgs/Cafeteria1/Shalom/Protein/Big-chicken.jpg"
 
 // Drinks
-import BottleWater from '../../imgs/Cafeteria1/MannaPalace/Drinks/Bottle-water.jpg'
-import Caprisonne from '../../imgs/Cafeteria1/MannaPalace/Drinks/Caprisonne.jpg'
-import ChiExotic from '../../imgs/Cafeteria1/MannaPalace/Drinks/Chi-Exotic.jpg'
-import ChivitaActive from '../../imgs/Cafeteria1/MannaPalace/Drinks/Chivita-active.jpg'
-import Fanta from '../../imgs/Cafeteria1/MannaPalace/Drinks/Fanta.jpg'
-import HollandiaYogurt from '../../imgs/Cafeteria1/MannaPalace/Drinks/Hollandia-yogurt.jpg'
-import LucozadeBoost from '../../imgs/Cafeteria1/MannaPalace/Drinks/Lucozade-boost.jpg'
-import Malt from '../../imgs/Cafeteria1/MannaPalace/Drinks/Malt.jpg'
-import Sprite from '../../imgs/Cafeteria1/MannaPalace/Drinks/Sprite.jpg'
-import VijuMilkApple from '../../imgs/Cafeteria1/MannaPalace/Drinks/Viju-milk-apple.jpg'
-import VijuMilkChocolate from '../../imgs/Cafeteria1/MannaPalace/Drinks/Viju-milk-chocolate.jpg'
-import colaCola from '../../imgs/Cafeteria1/MannaPalace/Drinks/cola-cola.jpg'
-import Pepsi from '../../imgs/Cafeteria1/MannaPalace/Drinks/pepsi.jpg'
-import Alive from '../../imgs/Cafeteria1/MannaPalace/Drinks/5-alive.jpg'
-import Mirinda from '../../imgs/Cafeteria1/MannaPalace/Drinks/Mirinda.jpg'
-import Sosa from '../../imgs/Cafeteria1/MannaPalace/Drinks/Sosa.jpg'
-import StrawberryIceCream from '../../imgs/Cafeteria1/MannaPalace/Drinks/StrawberryIceCream.jpg'
-import VanillaIceCream from '../../imgs/Cafeteria1/MannaPalace/Drinks/VanillaIceCream.jpg'
-import ChocolateIceCream from '../../imgs/Cafeteria1/MannaPalace/Drinks/ChocolateIceCream.jpg'
-import OreoIceCream from '../../imgs/Cafeteria1/MannaPalace/Drinks/Oreo.jpg'
-import SosaSmall from '../../imgs/Cafeteria1/MannaPalace/Drinks/SosaSmall.jpg'
+import BottleWater from "../../imgs/Cafeteria1/Shalom/Drinks/Bottle-water.jpg"
+import Caprisonne from "../../imgs/Cafeteria1/Shalom/Drinks/Caprisonne.jpg"
+import ChiExotic from "../../imgs/Cafeteria1/Shalom/Drinks/Chi-Exotic.jpg"
+import ChivitaActive from "../../imgs/Cafeteria1/Shalom/Drinks/Chivita-active.jpg"
+import Fanta from "../../imgs/Cafeteria1/Shalom/Drinks/Fanta.jpg"
+import HollandiaYogurt from "../../imgs/Cafeteria1/Shalom/Drinks/Hollandia-yogurt.jpg"
+import LucozadeBoost from "../../imgs/Cafeteria1/Shalom/Drinks/Lucozade-boost.jpg"
+import Malt from "../../imgs/Cafeteria1/Shalom/Drinks/Malt.jpg"
+import Sprite from "../../imgs/Cafeteria1/Shalom/Drinks/Sprite.jpg"
+import VijuMilkApple from "../../imgs/Cafeteria1/Shalom/Drinks/Viju-milk-apple.jpg"
+import VijuMilkChocolate from "../../imgs/Cafeteria1/Shalom/Drinks/Viju-milk-chocolate.jpg"
+import colaCola from "../../imgs/Cafeteria1/Shalom/Drinks/cola-cola.jpg"
+import Pepsi from "../../imgs/Cafeteria1/Shalom/Drinks/pepsi.jpg"
+import Alive from "../../imgs/Cafeteria1/Shalom/Drinks/5-alive.jpg"
+import Mirinda from "../../imgs/Cafeteria1/Shalom/Drinks/Mirinda.jpg"
+import Sosa from "../../imgs/Cafeteria1/Shalom/Drinks/Sosa.jpg"
+import StrawberryIceCream from "../../imgs/Cafeteria1/Shalom/Drinks/StrawberryIceCream.jpg"
+import VanillaIceCream from "../../imgs/Cafeteria1/Shalom/Drinks/VanillaIceCream.jpg"
+import ChocolateIceCream from "../../imgs/Cafeteria1/Shalom/Drinks/ChocolateIceCream.jpg"
+import OreoIceCream from "../../imgs/Cafeteria1/Shalom/Drinks/Oreo.jpg"
+import SosaSmall from "../../imgs/Cafeteria1/Shalom/Drinks/SosaSmall.jpg"
+
+
 
 // Food
-import friedRice from '../../imgs/Cafeteria1/MannaPalace/Food/fried-rice.jpg'
-import jollofRice from '../../imgs/Cafeteria1/MannaPalace/Food/jollof-rice.jpg'
-import plantain from '../../imgs/Cafeteria1/MannaPalace/Food/plantain.jpg'
-import whiteRice from '../../imgs/Cafeteria1/MannaPalace/Food/white-rice.jpg'
-import Spaghetti from '../../imgs/Cafeteria1/MannaPalace/Food/spaghetti.jpg'
-import Beans from '../../imgs/Cafeteria1/MannaPalace/Food/Beans.jpg'
-import BreadAndBeans from '../../imgs/Cafeteria1/MannaPalace/Food/BreadAndBeans.jpg'
-import Coleslaw from '../../imgs/Cafeteria1/MannaPalace/Food/Coleslaw.jpg'
-import EggSauceFriedEgg from '../../imgs/Cafeteria1/MannaPalace/Food/EggSauce&friedEgg.jpg'
-import Noodles from '../../imgs/Cafeteria1/MannaPalace/Food/Noodles.jpg'
-import YamPorridge from '../../imgs/Cafeteria1/MannaPalace/Food/Yam-porridge.jpg'
-import Yam from '../../imgs/Cafeteria1/MannaPalace/Food/Yam.jpg'
-import Bread from '../../imgs/Cafeteria1/MannaPalace/Food/bread.jpg'
-import ofadaRice from '../../imgs/Cafeteria1/MannaPalace/Food/ofada-rice.jpg'
-import ofadaSauce from '../../imgs/Cafeteria1/MannaPalace/Food/Ofada-sauce.jpg'
-import goatMeat from '../../imgs/Cafeteria1/MannaPalace/Food/Goat-meat.jpg'
+import friedRice from "../../imgs/Cafeteria1/Shalom/Food/fried-rice.jpg"
+import jollofRice from "../../imgs/Cafeteria1/Shalom/Food/jollof-rice.jpg"
+import plantain from "../../imgs/Cafeteria1/Shalom/Food/plantain.jpg"
+import whiteRice from "../../imgs/Cafeteria1/Shalom/Food/white-rice.jpg"
+import Spaghetti from "../../imgs/Cafeteria1/Shalom/Food/spaghetti.jpg"
+import Beans from "../../imgs/Cafeteria1/Shalom/Food/Beans.jpg"
+import BreadAndBeans from "../../imgs/Cafeteria1/Shalom/Food/BreadAndBeans.jpg"
+import Coleslaw from "../../imgs/Cafeteria1/Shalom/Food/Coleslaw.jpg"
+import EggSauceFriedEgg from "../../imgs/Cafeteria1/Shalom/Food/EggSauce&friedEgg.jpg"
+import Noodles from "../../imgs/Cafeteria1/Shalom/Food/Noodles.jpg"
+import YamPorridge from "../../imgs/Cafeteria1/Shalom/Food/Yam-porridge.jpg"
+import Yam from "../../imgs/Cafeteria1/Shalom/Food/Yam.jpg"
+import Bread from "../../imgs/Cafeteria1/Shalom/Food/bread.jpg"
+import ofadaRice from "../../imgs/Cafeteria1/Shalom/Food/ofada-rice.jpg"
+import OfadaSauce from "../../imgs/Cafeteria1/Shalom/Food/Ofada-sauce.jpg"
+import goatMeat from "../../imgs/Cafeteria1/Shalom/Food/Goat-meat.jpg"
 
 // Soup
-import egusiSoup from '../../imgs/Cafeteria1/MannaPalace/Soups/egusi-soup.jpg'
-import EweduSoup from '../../imgs/Cafeteria1/MannaPalace/Soups/Ewedu-soup.jpg'
-import OgbonnoSoup from '../../imgs/Cafeteria1/MannaPalace/Soups/Ogbonno-soup.jpg'
-// import OkroSoup from '../../imgs/Cafeteria1/MannaPalace/Soups/Okro-soup.jpg'
-import vegetableSoup from '../../imgs/Cafeteria1/MannaPalace/Soups/vegetable-soup.jpg'
-import efo from '../../imgs/Cafeteria1/MannaPalace/Soups/Efo.jpg'
+import egusiSoup from "../../imgs/Cafeteria1/Shalom/Soups/egusi-soup.jpg"
+import EweduSoup from "../../imgs/Cafeteria1/Shalom/Soups/Ewedu-soup.jpg"
+import OgbonnoSoup from "../../imgs/Cafeteria1/Shalom/Soups/Ogbonno-soup.jpg"
+// import OkroSoup from "../../imgs/Cafeteria1/Shalom/Soups/Okro-soup.jpg"
+import vegetableSoup from "../../imgs/Cafeteria1/Shalom/Soups/vegetable-soup.jpg"
+import efo from "../../imgs/Cafeteria1/Shalom/Soups/Efo.jpg"
 
 
 // Swallow
-import Amala from '../../imgs/Cafeteria1/MannaPalace/Swallow/Amala.jpg'
-import Eba from '../../imgs/Cafeteria1/MannaPalace/Swallow/Eba.jpg'
-import PoundedYam from '../../imgs/Cafeteria1/MannaPalace/Swallow/Pounded-yam.jpg'
-import Semo from '../../imgs/Cafeteria1/MannaPalace/Swallow/Semo.jpg'
-import fufu from '../../imgs/Cafeteria1/MannaPalace/Swallow/fufu.jpg'
+import Amala from "../../imgs/Cafeteria1/Shalom/Swallow/Amala.jpg"
+import Eba from "../../imgs/Cafeteria1/Shalom/Swallow/Eba.jpg"
+import PoundedYam from "../../imgs/Cafeteria1/Shalom/Swallow/Pounded-yam.jpg"
+import Semo from "../../imgs/Cafeteria1/Shalom/Swallow/Semo.jpg"
+import fufu from "../../imgs/Cafeteria1/Shalom/Swallow/fufu.jpg"
 
 
 export const Packages = [
     {
         name: 'Pack',
         image: Pack,
-        price: 150,
+        price: 200,
         status: ''
     },
     {
@@ -103,20 +105,20 @@ export const Pastries = [
     {
         name: 'Meat Pie',
         image: meatPie,
-        price: 300,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Donut',
         image: Donut,
-        price: 150,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Egg Roll',
         image: eggRoll,
-        price: 300,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
 ]
 
@@ -136,19 +138,19 @@ export const Proteins = [
     {
         name: 'Fish(Big)',
         image: fishBig,
-        price: 600,
+        price: 200,
         status: ''
     },
     {
         name: 'Fish(Small)',
         image: fishSmall,
-        price: 100,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Moin Moin',
         image: moinMoin,
-        price: 200,
+        price: 100,
         status: ''
     },
     {
@@ -160,7 +162,7 @@ export const Proteins = [
     {
         name: 'Chicken(Medium)',
         image: mediumChicken,
-        price: 800,
+        price: 1000,
         status: ''
     },
     {
@@ -178,8 +180,8 @@ export const Proteins = [
     {
         name: 'Chicken(Big)',
         image: BigChicken,
-        price: '',
-        status: 'unavailable'
+        price: 1200,
+        status: ''
     }
 ]
 
@@ -193,13 +195,13 @@ export const Drinks = [
     {
         name: 'Chi Exotic',
         image: ChiExotic,
-        price: 750,
+        price: 900,
         status: ''
     },
     {
         name: 'Chivita Active',
         image: ChivitaActive,
-        price: 750,
+        price: 900,
         status: ''
     },
     {
@@ -211,8 +213,8 @@ export const Drinks = [
     {
         name: 'Hollandia Yogurt',
         image: HollandiaYogurt,
-        price: 1000,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Lucozade Boost',
@@ -223,7 +225,7 @@ export const Drinks = [
     {
         name: 'Malt',
         image: Malt,
-        price: 350,
+        price: 400,
         status: ''
     },
     {
@@ -241,13 +243,13 @@ export const Drinks = [
     {
         name: 'Viju Milk(Apple)',
         image: VijuMilkApple,
-        price: 250,
+        price: 400,
         status: ''
     },
     {
         name: 'Viju Milk(Chocolate)',
         image: VijuMilkChocolate,
-        price: 300,
+        price: 400,
         status: ''
     },
     {
@@ -259,7 +261,7 @@ export const Drinks = [
     {
         name: '5 Alive',
         image: Alive,
-        price: 700,
+        price: 800,
         status: ''
     },
     {
@@ -283,33 +285,33 @@ export const Drinks = [
     {
         name: 'Ice Cream(Strawberry)',
         image: StrawberryIceCream,
-        price: 650,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Ice Cream(Vanilla)',
         image: VanillaIceCream,
-        price: 650,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Ice Cream(Oreo)',
         image: OreoIceCream,
-        price: 750,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Ice Cream(Chocolate)',
         image: ChocolateIceCream,
-        price: 750,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Sosa(Small)',
         image: SosaSmall,
         price: '',
         status: 'unavailable'
-    }
+    },
 ]
 
 export const Foods = [
@@ -338,12 +340,6 @@ export const Foods = [
         status: ''
     },
     {
-        name: 'Fried Rice',
-        image: friedRice,
-        price: '100 (per portion)',
-        status: ''
-    },
-    {
         name: 'Beans',
         image: Beans,
         price: '100 (per portion)',
@@ -364,32 +360,32 @@ export const Foods = [
     {
         name: 'Egg Sauce',
         image: EggSauceFriedEgg,
-        price: 200,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Noodles',
         image: Noodles,
-        price: '250 (3pm to 5pm)',
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Yam Porridge',
         image: YamPorridge,
-        price: '100 (per portion)',
+        price: 200,
         status: ''
     },
     {
         name: 'Yam',
         image: Yam,
-        price: '50 (per portion)',
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Bread',
         image: Bread,
-        price: 300,
-        status: ''
+        price: '',
+        status: 'unavailable'
     },
     {
         name: 'Ofada Rice',
@@ -406,15 +402,15 @@ export const Foods = [
     {
         name: 'Goat Meat',
         image: goatMeat,
-        price: '',
-        status: 'unavailable'
+        price: 500,
+        status: ''
     },
     {
         name: 'Ofada Sauce',
-        image: ofadaSauce,
+        image: OfadaSauce,
         price: '',
         status: 'unavailable'
-    }
+    },
 ]
 
 export const Soups = [
@@ -454,13 +450,13 @@ export const Swallows = [
     {
         name: 'Amala',
         image: Amala,
-        price: 150,
+        price: 200,
         status: ''
     },
     {
         name: 'Eba',
         image: Eba,
-        price: 100,
+        price: 200,
         status: ''
     },
     {
@@ -472,13 +468,13 @@ export const Swallows = [
     {
         name: 'Semo',
         image: Semo,
-        price: 100,
+        price: 200,
         status: ''
     },
     {
         name: 'Fufu',
         image: fufu,
-        price: 150,
+        price: 200,
         status: ''
     },
 ]

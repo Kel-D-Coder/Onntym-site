@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './Pages/Home';
-import { EveningVendors } from './Pages/EveningVendors';
 import { Cafeteria1 } from './Pages/Cafeteria1';
-import { Contact } from './Pages/Contact';
 import Breakfast from './Pages/MannaPalace';
 import DoublePortion from './Pages/DoublePortion';
 import Welcome from './Pages/Welcome';
 import Register from './Pages/Register';
+import Mimis from "./Pages/Cafeteria1/Mimi's";
+import NationalKitchen from './Pages/Cafeteria1/NationalKitchen';
+import Numbers from './Pages/Cafeteria1/Numbers';
+import Shalom from './Pages/Cafeteria2/Shalom';
 import NarshPlace from './Pages/NarshPlace';
 import LynPaul from './Pages/LynPaul';
 import ErnalDelicacy from './Pages/ErnalDelicacy';
@@ -31,10 +33,14 @@ function App() {
           <Route index element={<Breakfast />} />
           <Route path="MannaPalace" element={<Breakfast />} />
           <Route path="DoublePortion" element={<DoublePortion />} />
+          <Route path="NationalKitchen" element={<NationalKitchen />} />
+          <Route path="Mimi's" element={<Mimis />} />
+          <Route path="Numbers" element={<Numbers />} />
+          <Route path="Shalom" element={<Shalom />} />
         </Route>
-        <Route path="contact" element={<Contact />} />
+        <Route path="Cafeteria2" element={<Cafeteria2 />} />
         <Route path="Welcome" element={<Welcome />} />
-        <Route path='Register' element={<Register/>}/>
+        <Route path="Register" element={<Register />} />
       </Routes>
     </Router>
   );

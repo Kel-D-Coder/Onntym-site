@@ -60,6 +60,8 @@ import YamPorridge from '../../imgs/Cafeteria1/DoublePortion/Food/Yam-porridge.j
 import Yam from '../../imgs/Cafeteria1/DoublePortion/Food/Yam.jpg'
 import Bread from '../../imgs/Cafeteria1/DoublePortion/Food/bread.jpg'
 import ofadaRice from '../../imgs/Cafeteria1/DoublePortion/Food/ofada-rice.jpg'
+import OfadaSauce from '../../imgs/Cafeteria1/DoublePortion/Food/Ofada-sauce.jpg'
+import goatMeat from '../../imgs/Cafeteria1/DoublePortion/Food/Goat-meat.jpg'
 
 // Soup
 import egusiSoup from '../../imgs/Cafeteria1/DoublePortion/Soups/egusi-soup.jpg'
@@ -67,6 +69,7 @@ import EweduSoup from '../../imgs/Cafeteria1/DoublePortion/Soups/Ewedu-soup.jpg'
 import OgbonnoSoup from '../../imgs/Cafeteria1/DoublePortion/Soups/Ogbonno-soup.jpg'
 // import OkroSoup from '../../imgs/Cafeteria1/DoublePortion/Soups/Okro-soup.jpg'
 import vegetableSoup from '../../imgs/Cafeteria1/DoublePortion/Soups/vegetable-soup.jpg'
+import efo from '../../imgs/Cafeteria1/DoublePortion/Soups/Efo.jpg'
 
 
 // Swallow
@@ -74,6 +77,7 @@ import Amala from '../../imgs/Cafeteria1/DoublePortion/Swallow/Amala.jpg'
 import Eba from '../../imgs/Cafeteria1/DoublePortion/Swallow/Eba.jpg'
 import PoundedYam from '../../imgs/Cafeteria1/DoublePortion/Swallow/Pounded-yam.jpg'
 import Semo from '../../imgs/Cafeteria1/DoublePortion/Swallow/Semo.jpg'
+import fufu from '../../imgs/Cafeteria1/DoublePortion/Swallow/fufu.jpg'
 
 
 export const Packages = [
@@ -243,13 +247,13 @@ export const Drinks = [
     {
         name: 'Viju Milk(Chocolate)',
         image: VijuMilkChocolate,
-        price: 350,
+        price: 550,
         status: ''
     },
     {
         name: 'Cola Cola',
         image: colaCola,
-        price: 250,
+        price: 300,
         status: ''
     },
     {
@@ -261,19 +265,19 @@ export const Drinks = [
     {
         name: 'Mirinda',
         image: Mirinda,
-        price: 250,
+        price: 300,
         status: ''
     },
     {
         name: 'Pepsi',
         image: Pepsi,
-        price: 250,
+        price: 300,
         status: ''
     },
     {
         name: 'Sosa(Big)',
         image: Sosa,
-        price: 550,
+        price: 800,
         status: ''
     },
     {
@@ -291,7 +295,7 @@ export const Drinks = [
     {
         name: 'Ice Cream(Oreo)',
         image: OreoIceCream,
-        price: 750,
+        price: 700,
         status: ''
     },
     {
@@ -341,7 +345,7 @@ export const Foods = [
     },
     {
         name: 'Fried Rice',
-        image: Spaghetti,
+        image: friedRice,
         price: '150 (per portion)',
         status: ''
     },
@@ -399,6 +403,24 @@ export const Foods = [
         price: '150 (per portion)',
         status: ''
     },
+    {
+        name: 'Spaghetti',
+        image: Spaghetti,
+        price: '150 (per portion)',
+        status: ''
+    },
+    {
+        name: 'Goat Meat',
+        image: goatMeat,
+        price: '',
+        status: 'unavailable'
+    },
+    {
+        name: 'Ofada Sauce',
+        image: OfadaSauce,
+        price: '100',
+        status: ''
+    },
 ]
 
 export const Soups = [
@@ -423,6 +445,12 @@ export const Soups = [
     {
         name: 'Vegetable Soup',
         image: vegetableSoup,
+        price: '',
+        status: ''
+    },
+    {
+        name: 'Efo',
+        image: efo,
         price: '',
         status: ''
     },
@@ -451,6 +479,12 @@ export const Swallows = [
         name: 'Semo',
         image: Semo,
         price: 200,
+        status: ''
+    },
+    {
+        name: 'Fufu',
+        image: fufu,
+        price: 150,
         status: ''
     },
 ]
