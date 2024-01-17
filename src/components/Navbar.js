@@ -3,6 +3,7 @@ import '../styles/Navbar.css'
 import 'animate.css'
 import ResponsiveNav from "./ResponsiveNav"
 import React from "react"
+import { FaUser } from 'react-icons/fa6'
 
 const Navbar = () => {
     
@@ -16,9 +17,12 @@ const Navbar = () => {
                 </div>
                 <div>
                     <NavLink to={'/'}>Home</NavLink>
-                    <NavLink to={'/about'}>About</NavLink>
+                    <NavLink to={'/eveningvendors'}>Evening Vendors</NavLink>
                     <NavLink to={'/Cafeteria1'}>Cafeteria1</NavLink>
                     <NavLink to={'/Cafeteria2'}>Cafeteria2</NavLink>
+                </div>
+                <div className="user">
+                    <Link to={'welcome'}> <FaUser /> </Link>
                 </div>
             </div>
             <hr />

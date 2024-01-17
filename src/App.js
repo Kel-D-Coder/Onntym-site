@@ -1,23 +1,35 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './Pages/Home';
-import { Cafeteria1 } from './Pages/Cafeteria1/Cafeteria1';
-import { Cafeteria2 } from './Pages/Cafeteria2/Cafeteria2';
-import Breakfast from './Pages/Cafeteria1/MannaPalace';
-import DoublePortion from './Pages/Cafeteria1/DoublePortion';
+import { Cafeteria1 } from './Pages/Cafeteria1';
+import Breakfast from './Pages/MannaPalace';
+import DoublePortion from './Pages/DoublePortion';
 import Welcome from './Pages/Welcome';
 import Register from './Pages/Register';
 import Mimis from "./Pages/Cafeteria1/Mimi's";
 import NationalKitchen from './Pages/Cafeteria1/NationalKitchen';
 import Numbers from './Pages/Cafeteria1/Numbers';
 import Shalom from './Pages/Cafeteria2/Shalom';
-// import { Footer } from './components/Footer';
+import NarshPlace from './Pages/NarshPlace';
+import LynPaul from './Pages/LynPaul';
+import ErnalDelicacy from './Pages/ErnalDelicacy';
+import NumbersSpag from './Pages/NumbersSpag';
+import General from './Pages/General';
+import IzzyBreadBox from './Pages/IzzyBreadBox';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Cafeteria1" element={<Cafeteria1 />}>
+        <Route path="eveningvendors" element={<EveningVendors />}>
+          <Route path='NarshPlace' element={<NarshPlace />} />
+          <Route path='LynPaul' element={<LynPaul />} />
+          <Route path='ErnalDelicacy' element={<ErnalDelicacy />} />
+          <Route path='NumbersSpag' element={<NumbersSpag />} />
+          <Route path='General' element={<General />} />
+          <Route path='IzzyBreadBox' element={<IzzyBreadBox />} />
+        </Route>
+        <Route path="Cafeteria1" element={<Cafeteria1/>}>
           <Route index element={<Breakfast />} />
           <Route path="MannaPalace" element={<Breakfast />} />
           <Route path="DoublePortion" element={<DoublePortion />} />

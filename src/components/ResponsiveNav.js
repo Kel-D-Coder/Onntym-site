@@ -9,19 +9,17 @@ export default function ResponsiveNav() {
     const [show, setShow] = useState('')
     const location = useLocation()
 
-    console.log(location)
-
     useEffect(() => {
-        setShow("no_show")
+      setShow("no_show")
     }, [])
 
     useEffect(() => {
-        setOpen(false)
+      setOpen(false)
     }, [location])
 
     function openNav(){
-        setOpen(!open)
-        setShow("show")
+      setOpen(!open)
+      setShow("show")
     }
   return (
     <div className="responsive_nav">
@@ -42,7 +40,7 @@ export default function ResponsiveNav() {
           className={`responsive_links animate__animated animate__slideInDown`}
         >
           <NavLink to={'/'}>Home</NavLink>
-          <NavLink to={'/about'}>About</NavLink>
+          <NavLink to={'/evening vendors'}>Evening Vendors</NavLink>
           <NavLink to={'/Cafeteria1'}>Cafeteria1</NavLink>
           <NavLink to={'/Cafeteria2'}>Cafeteria2</NavLink>
         </div>
@@ -51,8 +49,8 @@ export default function ResponsiveNav() {
           className={`responsive_links  animate__animated animate__slideOutUp ${show} `}
         >
           <NavLink to={'/'}>Home</NavLink>
-          <NavLink to={'/about'}>About</NavLink>
-          <NavLink to={'/cafeteria'}>Cafeteria1</NavLink>
+          <NavLink to={'/evening vendors'}>Evening Vendors</NavLink>
+          <NavLink to={'/cafeteria1'}>Cafeteria1</NavLink>
           <NavLink to={'/Cafeteria2'}>Cafeteria2</NavLink>
         </div>
       )}

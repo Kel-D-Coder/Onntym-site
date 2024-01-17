@@ -151,7 +151,13 @@ body {
     font-size: xx-large;
 }
 
-@media (max-width: 768px) {
+/* Phone */
+@media (min-width: 320px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .landing-img {
         display: none;
