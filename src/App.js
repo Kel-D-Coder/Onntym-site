@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './Pages/Home';
-import { Cafeteria1 } from './Pages/Cafeteria1';
-import Breakfast from './Pages/MannaPalace';
-import DoublePortion from './Pages/DoublePortion';
+import { Cafeteria1 } from './Pages/Cafeteria1/Cafeteria1';
+import { Cafeteria2 } from './Pages/Cafeteria2/Cafeteria2';
+import { EveningVendors } from './Pages/EveningVendors'
+import Breakfast from './Pages/Cafeteria1/MannaPalace';
+import DoublePortion from './Pages/Cafeteria1/DoublePortion';
 import Welcome from './Pages/Welcome';
 import Register from './Pages/Register';
 import Mimis from "./Pages/Cafeteria1/Mimi's";
@@ -22,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="eveningvendors" element={<EveningVendors />}>
+          <Route index element={<NarshPlace />} />
           <Route path='NarshPlace' element={<NarshPlace />} />
           <Route path='LynPaul' element={<LynPaul />} />
           <Route path='ErnalDelicacy' element={<ErnalDelicacy />} />
